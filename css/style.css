@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.conteiner{
+    width:80%;
+    margin:auto;
+    padding: 20px;
+    border: 1px solid red;
+}
+
+.card{
+    position: relative;
+}
+
+.card>img{
+    width: 33%;
+}
+
+.like{
+    background-color: red;
+    border: 1px solid blue;
+    position: absolute;
+    top:10px;
+    right:10px;
+}
