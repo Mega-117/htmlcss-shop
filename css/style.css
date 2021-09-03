@@ -51,5 +51,14 @@
 .etichette{
     position: absolute;
     bottom: 20px;
+}
 
+.price{
+    color:red;
+}
+
+.price-delite{
+    text-decoration:line-through;
+    margin-left:10px;
+    color: black;
 }
