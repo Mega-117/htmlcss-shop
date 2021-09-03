@@ -8,7 +8,6 @@
     width:80%;
     margin:auto;
     padding: 20px 10px;
-    border: 1px solid red;
 }
 
 .product{
@@ -16,6 +15,8 @@
     margin-left:5px;
     display: inline-block;
 }
+
+/* inizio card */
 
 .card{
     position: relative;
@@ -45,7 +46,9 @@
     display: block;
 }
 
+/* fine card */
 
+/* inizio sovrapposizioni */
 .like{
     font-size: 25px;
     width: 50px;
@@ -59,6 +62,16 @@
     z-index:2;
 }
 
+.like:hover span{
+    color:red;
+} 
+
+.banner{
+    display: inline-block;
+    padding: 5px;
+    color: white;
+}
+
 .discount{
     background-color: #eb0037;
 }
@@ -66,16 +79,17 @@
 .banner.speciale{
     background-color: #00875a;
 }
-.banner{
-    display: inline-block;
-    padding: 5px;
-    color: white;
-}
 
 .etichette{
     position: absolute;
     bottom: 20px;
     z-index:2;
+}
+
+/* dati prodotto */
+
+.dati-prodotto{
+    margin-bottom: 10px;
 }
 
 .price{
@@ -87,4 +101,3 @@
     margin-left:10px;
     color: black;
 }
-
