@@ -35,6 +35,21 @@
     right:0px;
 }
 
-h1{
-    text-align: center;
+.discount{
+    background-color: #eb0037;
+}
+
+.banner.speciale{
+    background-color: #00875a;
+}
+.banner{
+    display: inline-block;
+    padding: 5px;
+    color: white;
+}
+
+.etichette{
+    position: absolute;
+    bottom: 20px;
+
 }
