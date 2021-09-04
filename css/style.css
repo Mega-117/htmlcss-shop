@@ -22,27 +22,20 @@
     position: relative;
 }
 
-.card>img{
-    width: 100%;
-}
-
-.overlay>img{
+.card img{
     width: 100%;
 }
 
 .overlay{
     position:absolute;
-    max-width: 100%;
-
     top:0;
     left: 0;
-    z-index: 1;
     display: none;
 }
 
+
 .card:hover .overlay{
     width: 100%;
-
     display: block;
 }
 
@@ -59,12 +52,16 @@
     position: absolute;
     top:20px;
     right:0px;
-    z-index:2;
 }
 
 .like:hover span{
     color:red;
 } 
+
+.etichette{
+    position: absolute;
+    bottom: 20px;
+}
 
 .banner{
     display: inline-block;
@@ -72,7 +69,7 @@
     color: white;
 }
 
-.discount{
+.banner.discount{
     background-color: #eb0037;
 }
 
@@ -80,11 +77,6 @@
     background-color: #00875a;
 }
 
-.etichette{
-    position: absolute;
-    bottom: 20px;
-    z-index:2;
-}
 
 /* dati prodotto */
 
